@@ -29,7 +29,7 @@ header button {
 }
 
 .info {
-  width: 22%;
+  width: 20%;
   height: 100%;
 
   display: flex;
@@ -45,11 +45,11 @@ header button {
 }
 
 .input-data {
-  width: 90%;
+  width: 80%;
   height: 35px;
   border: 1px solid gray;
   border-radius: 10px;
-  background-color: rgb(255, 0, 0, 0.75);
+  background-color: rgb(255, 0, 0, 0.65);
 }
 
 .input-data::placeholder {

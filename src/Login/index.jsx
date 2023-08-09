@@ -1,12 +1,12 @@
 import "./styles.css";
-// import Video from "./../assets/video_pizza_pitz (video-converter.com).mp4";
+import Video from "./../assets/video_pizza_pitz.mp4";
 
 export default function Login() {
   return (
     <>
-      {/* <video className="video-pizza" autoPlay loop muted>
+      <video className="video-pizza" autoPlay loop muted>
         <source src={Video} type="video/mp4" />
-      </video> */}
+      </video>
       <div className="container-data">
         <div className="info">
           <h1>Login</h1>
@@ -19,6 +19,16 @@ export default function Login() {
             className="input-data"
             type="text"
             placeholder="Há quantos anos você ama pizza? (sua idade)"
+          />
+          <input
+            className="input-data"
+            type="text"
+            placeholder="Qual seu número"
+          />
+          <input
+            className="input-data"
+            type="text"
+            placeholder="Qual seu e-mail"
           />
           <input
             className="input-data"
